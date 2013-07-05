@@ -39,9 +39,8 @@ end
 
 # Include database gems for the adapters found in the database
 # configuration file
-#gem 'erb'
-#gem 'yaml'
-
+require 'erb'
+require 'yaml'
 database_file = File.join(File.dirname(__FILE__), "config/database.yml")
 if File.exist?(database_file)
   database_config = YAML::load(ERB.new(IO.read(database_file)).result)
