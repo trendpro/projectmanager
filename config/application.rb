@@ -58,5 +58,9 @@ module RedmineApp
     if File.exists?(File.join(File.dirname(__FILE__), 'additional_environment.rb'))
       instance_eval File.read(File.join(File.dirname(__FILE__), 'additional_environment.rb'))
     end
+    
+    # When deploying Rails 3.1+ app on Heroku force your application to not access the DB or 
+    # load models when precompiling your assets
+    config.assets.initialize_on_precompile = false
   end
 end
