@@ -1,0 +1,12 @@
+<% if @contact.is_company %> 
+<div id="employee">
+	<div class="contextual">
+		<%= link_to_if_authorized l(:label_add_employee), {:controller => 'contacts', :action => 'new', :project_id => @project, :contact => {:company => @contact.name}} %>
+	</div>
+	<h3><%= l(:label_company_employees) %></h3>
+
+	<%= render :partial => 'common/contact_data', :collection => @employees %>  
+  <div style="clear:both;"> </div>
+</div>
+
+<% end %>      

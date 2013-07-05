@@ -1,0 +1,24 @@
+<p>  
+  <label><%= l(:label_gravatar_enabled) %></label>
+  <%= check_box_tag 'settings[use_gravatar]', 1, @settings[:use_gravatar] %>
+</p>
+    
+<p>  
+  <label><%= l(:label_user_format) %></label>
+  <%= select_tag 'settings[name_format]', options_for_select(Contact::CONTACT_FORMATS.keys.collect {|f| [Contact.new(:first_name => 'Firstname', :last_name => 'Lastname', :middle_name => 'Middlename').name(f), f.to_s] }, @settings[:name_format] ) %>
+</p>
+
+<p>  
+  <label><%= l(:label_contact_note_authoring_time) %></label>
+  <%= check_box_tag 'settings[note_authoring_time]', 1, @settings[:note_authoring_time] %>
+</p>    
+
+<p>  
+  <label><%= l(:label_contact_show_in_app_menu) %></label>
+  <%= check_box_tag 'settings[show_in_app_menu]', 1, @settings[:show_in_app_menu] %>
+</p>   
+
+<p>  
+  <label><%= l(:label_contact_show_closed_issues) %></label>
+  <%= check_box_tag 'settings[show_closed_issues]', 1, @settings[:show_closed_issues] %>
+</p>

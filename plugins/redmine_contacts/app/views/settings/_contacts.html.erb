@@ -1,0 +1,9 @@
+<% contacts_tabs = [{:name => 'general', :partial => 'settings/contacts_general', :label => :label_general},
+        {:name => 'tags', :partial => 'settings/contacts_tags', :label => :label_tags_plural}
+        ]   %>   
+
+<%  contacts_tabs.push({:name => 'hidden', :partial => 'settings/contacts_hidden', :label => :label_contacts_hidden}) if params[:hidden] %>
+
+<%= render_tabs contacts_tabs %>
+
+<% html_title(l(:label_settings), l(:label_contact_plural)) -%>  

@@ -1,0 +1,78 @@
+<% source_type %>
+
+<%  if !@issue.blank? && (User.current.allowed_to?("view_#{source_type.name}s".to_sym, @project) || User.current.admin?)  %>
+
+<div id="issue_<%= source_type.name.underscore %>s">  
+	<style type="text/css">
+		#issue_contacts ul {margin: 0;  padding: 0;}
+		#issue_contacts li {list-style-type:none; margin: 0px 2px 0px 0px; padding: 0px 0px 0px 0px;}
+		#issue_contacts select {width: 95%; display: block;}
+		#issue_contacts a.delete {opacity: 0.4;}
+		#issue_contacts a.delete:hover {opacity: 1;}
+		#issue_contacts img.gravatar {vertical-align: middle; margin: 0 4px 2px 0;} 
+	</style>
+	
+	<div class="contextual">           
+		<%= link_to_remote l(:button_add), 
+		                   :url => {:controller => 'tasks',
+		                            :action => 'add',
+									              :project_id => @project,
+									              :source_type => source_type,
+		                            :issue_id => @issue} if User.current.allowed_to?({:controller => 'tasks',
+					                            :action => 'add'}, @project) %>
+
+	 </div>
+
+	
+	<h3><%= l("label_#{source_type.name.underscore}_plural") %> </h3>  
+	
+	<% unless !(@show_form == "true") %>
+     	<% form_remote_tag( 
+                	   :url => {:controller => 'tasks',
+              	              :action => 'add',
+         	                    :issue_id => @issue,
+                        		  :project_id => @project,
+                        		  :source_type => source_type},
+       	             :method => :post,
+      	             :html => {:id => "add-#{source_type.name.underscore}-form"}) do |f| %>
+		<p><%= select_tag :source_id, options_for_select(@project.contacts.sort!{|x, y| x.name <=> y.name }.collect {|m| [m.name, m.id]}), :prompt => "--- #{l(:actionview_instancetag_blank_option)} ---" %>
+
+		<%= submit_tag l(:button_add) %>
+		<%= toggle_link l(:button_cancel), "add-#{source_type.name.underscore}-form"%></p>
+		<% end %>
+	<% end %>
+    
+    
+	<ul>
+	    <% @issue.taskables.find_by_source_type(source_type.name).each do |taskable| %>   
+		<li>  
+		<%= avatar_to taskable, :size => "16" %>	
+		<%= link_to_source taskable %>
+		<%= "(#{taskable.job_title}) " unless taskable.job_title.blank? %>  
+		   
+		<% if  User.current.allowed_to?("delete_#{source_type.name.underscore}s".to_sym, @project) %>
+			<%= link_to_remote(image_tag('delete.png'), 
+					:url => {:controller => 'tasks',
+  								:action => 'delete',
+  								:issue_id => @issue, 
+  								:project_id => @project,
+  								:source_id => taskable.id,
+  								:source_type => source_type}, 
+					:method => :delete, 
+					:confirm => l(:text_are_you_sure), 
+  				 	:html => {:class  => "delete",
+	   						  :title => l(:button_delete) }) %>
+					
+		 <% end %>   			
+		 </li>   			
+		<% end %>    
+	</ul>
+
+</div>    
+
+
+
+<% end %>
+
+
+

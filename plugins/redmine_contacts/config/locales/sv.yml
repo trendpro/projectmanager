@@ -1,0 +1,235 @@
+# encoding: utf-8
+sv:
+  contacts_title: Kontakter
+
+  label_all_people: Alla kontakter
+  label_all_companies: All företag
+  label_all_people_and_companies: Alla kontakter
+  label_recently_viewed: Senast visade
+  label_gravatar_enabled: Använd Gravatar  
+  label_contacts_thumbnails_enabled: Visa miniatyrbild i noteringen
+  label_max_contacts_thumbnail_file_size: Max bildstorlek
+  label_contacts_view_all: Se alla kontakter
+  label_contact_files: Filer
+  label_task_plural: Uppgifter
+  label_contact_background_info: Bakgrundsinformation
+  label_person: Person
+  label_company: Företag
+  label_contact_plural: Kontakter   
+  label_contact_information: Kontaktinformation
+  label_contact_edit_information: Editerar kontaktinformation
+  label_edit_tags: Editera tags
+  label_contact_view: Visa
+  label_contact_list: Lista
+  label_contact_new: Ny kontakt
+  label_at_company: vid
+  label_last_notes: Senaste notering
+  label_tags_plural: Tags
+  label_multi_tags_plural: Välj flea tags
+  label_single_tag_mode: Enkel tag
+  label_multiple_tags_mode: Flera tags
+  label_contact_tag: Tag
+  label_time_ago: sedan
+  label_add_note_plural: Lägg till notering i
+  label_note_plural: Noteringar
+  label_company_employees: Anställda
+  label_add_tags_rule: avgränsa med komma
+  label_contact_search: Sök på namn
+  label_note_for: Notering för
+  label_show_on_map: Visa på karta   
+  label_add_another_phone: lägg till telefonnummer   
+  label_contact_note_plural: Alla noteringar
+  label_remove: ta bort
+  label_related_contacts: Relaterade kontakter
+  label_assigned_to: Ansvarig
+  label_issue_added: Ärende tillagt
+  label_add_emails_rule: avgränsa med komma
+  label_add_phones_rule: avgränsa med komma
+  label_add_employee: Ny anställd
+  label_merge_duplicate_plural: sammanfoga
+  label_duplicate_plural: Möjliga dubbletter
+  label_duplicate_for_plural: Möjliga dubbletter för
+  label_add_tag: Lägg till ny...
+   
+  label_note_show_extras: Avancerat (typ, datum, filer)
+  label_note_hide_extras: Göm Avancerat 
+  label_note_added: Noteringen lades till
+  label_note_read_more: (läs mer)
+
+  label_deal_plural: Affärsmöjligheter
+  label_contractor_plural: Kontakter
+  label_deal: Affärsmöjlighet
+  label_deal_new: Ny affärsmöjlighet
+  label_deal_edit_information: Editera affärsinformation   
+  label_deal_change_status: Byt status
+  label_statistics: Statistik
+  
+  label_deal_status_new: Ny
+  label_deal_status_first_contact: Första kontakt
+  label_deal_status_negotiations: Förhandling
+  label_deal_status_pending: Väntar svar
+  label_deal_status_won: Vunnen
+  label_deal_status_lost: Förlorad   
+  
+  label_created_on: Skapad
+
+  field_note_date: Noteringsdatum
+  
+  field_deal_name: Namn
+  field_deal_background: Bakgrund
+  field_deal_contact: Contact    
+  field_deal_price: Sum  
+  field_price: Sum  
+  
+  field_contact_avatar: Avatar
+  field_contact_is_company: Företag
+  field_contact_name: Namn
+  field_contact_last_name: Efternamn
+  field_contact_first_name: Förnamn
+  field_contact_middle_name: Mellannamn
+  field_contact_job_title: Jobbtitel
+  field_contact_company: Företag
+  field_contact_address: Adress
+  field_contact_phone: Telefonnr
+  field_contact_email: Email
+  field_contact_website: Webbsida
+  field_contact_skype: Skype
+  field_contact_status: Status   
+  field_contact_background: Bakgrund   
+  field_contact_tag_names: Tags   
+  field_first_name: Förnamn
+  field_last_name: Efternamn
+  field_company: Företag
+  field_birthday: Födelsedag      
+  field_contact_department: Avdelning
+  
+  
+  field_company_field: Bransch
+  
+  field_color: Färg
+  
+  button_add_note: Lägg till notering
+  notice_successful_save: Sparad
+  notice_successful_add: Skapad
+  notice_unsuccessful_save: Spara problem
+  notice_successful_merged: Sammanfogad     
+  
+  notice_merged_warning: All noteringar, projekt, taggar och uppgifter bifogade med denna kontakt kommer att bli flyttade till valet nedan. Kontakten blir sedan borttagen.
+  
+  project_module_contacts_module: Kontakter
+  
+  permission_view_contacts: Se kontakter
+  permission_edit_contacts: Editera kontakter
+  permission_delete_contacts: Ta bort kontakter
+  permission_view_deals: Se affärsmöjlighet
+  permission_edit_deals: Editera affärsmöjlighet
+  permission_delete_deals: Ta bort affärsmöjlighet
+  permission_add_notes: Lägg till notering
+  permission_delete_notes: Ta bort notering   
+  permission_delete_own_notes: Ta bort egna noteringar     
+  
+  # 2.0.0   
+  label_deal_category: Affärsmöjlighet kategori  
+  label_deal_category_plural: Affärsmöjligheter kategori  
+  label_deal_category_new: Ny kategori
+  text_deal_category_destroy_assignments: Ta bort kategoriers tilldelningarn
+  text_deal_category_destroy_question: "Några affärsmöjligheter (%{count}) är tilldelade till denna kategori. Vad vill du göra?"
+  text_deal_category_reassign_to: Omfördela affärsmöjligheter till denna kategori
+  text_deals_destroy_confirmation: 'Är du säker på att du vill ta bort valda affärsmöjligheter?'  
+  label_deal_status_plural: Status affärsmöjligheter
+  label_deal_status: Status affärsmöjlighet
+  field_deal_status_is_closed: Stängd
+  label_deal_status_new: Ny
+  permission_manage_contacts: Uppräkning
+  label_sales_funnel: Sälj kanalisering
+  label_period: Period
+  label_count: Sammanräkning
+  
+  #2.0.1
+  label_user_format: Format för kontaktnamn
+  label_my_contact_plural: Kontakter som är tilldelade till mig
+  label_my_deal_plural: Öppna affärsmöjligheter som är tilldelade till mig 
+  label_contact_view_all: Se alla kontakter
+  label_deal_view_all: Se alla affärsmöjligheter
+  
+  #2.0.2
+  label_bulk_edit_selected_contacts: Editera alla valda kontakter
+  label_bulk_edit_selected_deals: Editera alla valda affärsmöjligheter
+  label_bulk_send_mail_selected_contacts: Skicka mail till alla valda kontakter
+  field_add_tags: Lägg till taggar
+  field_delete_tags: Ta bort taggar
+  label_send_mail: Skicka mail
+  error_empty_email: Mail kan inte vara tomt
+  permission_send_contacts_mail: Skicka mail
+  field_mail_from: Frånadress
+  text_email_macros: Tillgängliga macro %{macro}
+  field_message: Meddelande
+
+  #2.0.3
+  label_add_contact: Lägg till ny kontakt i projekt
+  label_contact: Kontakt
+  field_age: Ålder
+  label_vcf_import: Importera från vCard
+  label_mail_from: Från
+  permission_import_contacts: Importera kontakter
+  
+  #2.1.0
+  field_company_name: Företagsnamn
+  label_recently_added_contacts: Senast tillagda kontaker
+  label_created_by_me: Kontakter skapadae av mig
+  my_contacts: Mina kontakter
+  my_deals: Mina affärsmöjligheter
+
+  #2.2.0
+  label_note_type_email: Mail
+  label_note_type_call: Samtal
+  label_note_type_meeting: Möte
+  field_deal_currency: Valuta
+  label_my_contacts_stats: Kontaktstatistik för denna månad
+  label_contacts_created: Kontakter skapade
+  label_deals_created: Affärsmöjligheter skapade
+  my_contacts_avatars: Mina kontakters foton
+  my_contacts_stats: Kontaktstatistik
+  label_add_into: Lägg till i
+  label_delete_from: Ta bort från
+  label_show_deaks_tab: Visa affärsmöjlighetsflik
+  label_show_on_projects_show: Visa kontakter på projektets översikt
+  
+  #2.2.1
+  label_contacts_show_in_list: Visa i lista
+  
+  #2.3.0
+  label_module_plural: Moduler
+  label_contacts_default_currency: Standardvaluta för affärsmöjligheter
+  label_contacts_list_partial_style: Kontaktliststil
+  label_contacts_list_excerpt: Undantagslista
+  label_contacts_list_cards: Kort
+  label_contacts_list_list: Tabell
+  field_contacts: Kontakt
+  field_companies: Företag
+  label_contacts_added_time_by: Tillagd av
+  label_contact_note_authoring_time: Visa noteringstid
+  label_contact_issues_filters: Uppgiftsfilter
+  label_contacts_csv_import: Importera kontakter från CSV
+  label_contacts_upload_encoding: Filkodning
+  label_contacts_csv_file: CSV fil
+  label_contacts_csv_separator: Separator
+  field_middle_name: Mellannamn
+  field_job_title: Jobbtitel
+  field_company: Företag
+  field_address: Adress
+  field_phone: Telefon
+  field_email: Mailadress
+  field_tags: Taggar
+  field_last_note: Sista notering
+  field_is_company: Är företag
+  field_contact_full_name: Fullständigt namn
+  button_contacts_edit_query: Editera fråga
+  button_contacts_delete_query: Ta bort fråga
+  permission_manage_public_contacts_queries: Behandla publika frågor
+  permission_add_deals: Lägg till affärsmöjlighet
+  permission_add_contacts: Lägg till kontakt
+  permission_save_contacts_queries: Spara fråga
+
+  #2.3.3
+  label_contact_show_is_app_menu: Visa flik i applikationsmeny

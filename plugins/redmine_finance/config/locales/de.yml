@@ -1,0 +1,61 @@
+# German strings go here for Rails i18n ( Sebastian Kriesmer )
+de:
+  label_finance: Finanzen
+  label_finance_plural: Finanzen
+  label_finance_thousands_delimiter: Tausender Trennzeichen
+  label_finance_decimal_separator: Dezimal Trennzeichen
+  label_finance_default_currency: Standard-Währung
+  project_module_finance: Finanzen
+
+  label_account: Account
+  label_account_plural: Accounts
+  label_account_debit: Debit
+  label_account_credit: Credit
+  label_account_new: New account
+  label_account_edit: Edit account
+  label_account_balance: Balance
+  label_account_currency: Währung
+
+  field_account: Account
+  field_account_currency: Währung
+
+  label_operation: Operation
+  label_operation_plural: Vorgänge
+  label_operation_edit: Tätigkeit bearbeiten
+  label_operation_new: Neue Tätigkeit
+  label_operation_date: Datum
+  label_operation_income: Ertrag
+  label_operation_expense: Ausgaben
+  label_operation_category: Kategorie
+  label_operation_amount: Wert
+
+  field_operation_category: Kategorie
+  field_operation_date: Datum der Vorgänge
+  field_operation_amount: Wert
+
+  label_operation_category_plural: Vorgänge Kategorie
+  label_operation_category_new: Neue Vorgänge Kategorie
+  label_operation_category_is_income: Ist Ertrag
+
+  label_finance_show_in_top_menu: Im oberen Menü anzeigen
+  label_finance_show_in_app_menu: In App Menü anzeigen
+
+  permission_view_finances: Finanzen anzeigen
+  permission_edit_operations: Vorgänge bearbeiten
+  permission_edit_own_operations: Eigene Vorgänge bearbeiten
+  permission_delete_operations: Vorgänge löschen
+  permission_comment_operations: Vorgänge kommentieren
+  permission_import_operations: Vorgänge importieren
+  permission_edit_accounts: Kostenstellen bearbeiten
+  permission_delete_accounts: Kostenstellen löschen
+  permission_manage_operation_invoices: Rechnungen verwalten
+  permission_manage_operation_relations: Beziehung d. Vorgänge verwalten
+
+  label_related_operations: Ähnliche Vorgänge
+  text_account_updated: "Kostenstelle %{name} wurde aktualisiert von %{author}."
+  text_account_amount_changed: "Wert geändert von %{old} nach %{new}"
+  label_finance_account_updated: Kostenstelle aktualisiert
+  label_finance_total: Total
+
+  #1.0.3
+  permission_delete_operation_comments: Kommentare löschen

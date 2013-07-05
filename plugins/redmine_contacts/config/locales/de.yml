@@ -1,0 +1,263 @@
+# encoding: utf-8
+de:
+  contacts_title: Kontakte
+
+  label_all_people: Alle Personen
+  label_all_companies: Alle Unternehmen
+  label_all_people_and_companies: Alle Kontakte
+  label_recently_viewed: Kürzlich angesehen
+  label_gravatar_enabled: Gravatar benutzen
+  label_contacts_thumbnails_enabled: Bildvorschau in Anmerkungen anzeigen
+  label_contacts_view_all: Alle Kontakte anzeigen
+  label_contact_files: Dateien
+  label_task_plural: Aufgaben
+  label_contact_background_info: Hintergrundinformationen
+  label_person: Person
+  label_company: Unternehmen
+  label_contact_plural: Kontaktliste
+  label_contact_information: Kontaktinformation
+  label_contact_edit_information: Kontaktinformation bearbeiten
+  label_edit_tags: Tags bearbeiten
+  label_contact_view: Anzeigen
+  label_contact_list: Auflisten
+  label_contact_new: Neu
+  label_at_company: bei
+  label_last_notes: Letzte Anmerkungen
+  label_tags_plural: Tags
+  label_contact_tag: Tag
+  label_time_ago: her
+  label_add_note_plural: Anmerkung hinzufügen
+  label_note_plural: Anmerkungen
+  label_company_employees: Angestellte
+  label_add_tags_rule: Mit Kommata trennen
+  label_contact_search: Nach Namen suchen
+  label_note_for: Anmerkung für
+  label_show_on_map: Auf Karte anzeigen
+  label_add_another_phone: Telefon hinzufügen
+  label_remove: löschen
+  label_related_contacts: Ähnliche Kontakte
+  label_assigned_to: Verantwortlich
+  label_issue_added: Ticket hinzugefügt
+  label_add_emails_rule: durch Komma separieren
+  label_add_phones_rule: durch Komma separieren
+  label_add_employee: Neuer Angestellter
+  label_merge_duplicate_plural: Zusammenführen
+  label_duplicate_plural: Mögliche Duplikate
+  label_duplicate_for_plural: Mögliche Duplikate für
+  label_add_tag: Neu hinzufügen...
+
+  label_note_show_extras: Erweiterte Optionen (Dateien, Datum)
+  label_note_hide_extras: Erweiterte Optionen ausblenden
+  label_note_added: Die Anmerkung wurde hinzugefügt
+  label_note_read_more: (weiter lesen)
+
+  label_deal_plural: Verkaufschancen
+  label_contractor_plural: Verkaufskontakte
+  label_deal: Verkaufschance
+  label_deal_new: Neue Verkaufschance
+  label_deal_edit_information: Verkaufschance bearbeiten
+  label_deal_change_status: Status ändern
+  label_statistics: Statistiken
+
+  label_deal_status_new: Neu
+  label_deal_status_first_contact: Erster Kontakt
+  label_deal_status_negotiations: Verhandlungen
+  label_deal_status_pending: ausstehend
+  label_deal_status_won: Gewonnen
+  label_deal_status_lost: Verloren
+
+  label_created_on: Erstellt
+
+  field_note_date: Datum der Anmerkung
+
+  field_deal_name: Name
+  field_deal_background: Hintergrundinformation
+  field_deal_contact: Kontakt
+  field_deal_price: Preis
+  field_price: Preis
+
+  field_contact_avatar: Avatar
+  field_contact_is_company: Unternehmen
+  field_contact_name: Name
+  field_contact_last_name: Nachname
+  field_contact_first_name: Vorname
+  field_contact_middle_name: Zwischenname
+  field_contact_job_title: Berufsbezeichnung
+  field_contact_company: Unternehmen
+  field_contact_address: Adresse
+  field_contact_phone: Telefon
+  field_contact_email: E-Mail
+  field_contact_website: Website
+  field_contact_skype: Skype
+  field_contact_status: Status
+  field_contact_background: Hintergrundinformationen
+  field_contact_tag_names: Tags
+  field_first_name: Name
+  field_last_name: Nachname
+  field_company: Unternehmen
+  field_birthday: Geburtstag
+  field_contact_department: Abteilung
+
+  field_company_field: Industrie
+
+  field_color: Farbe
+
+  button_add_note: Anmerkung hinzufügen
+  notice_successful_save: Gespeichert
+  notice_successful_add: Erfolgreich hinzugefügt
+  notice_unsuccessful_save: Konnte nicht gespeichert werden
+  notice_successful_merged: Erfolgreich zusammengeführt
+
+  notice_merged_warning: Alle Anmerkungen, Projekte, Tags und Aufgaben die diesem Kontakt zugeordnet sind, werden entsprechend verschoben. Anschliessend wird der Kontakt gelöscht.
+
+  project_module_contacts_module: Kontakte
+
+  permission_view_contacts: Kontakte anzeigen
+  permission_edit_contacts: Kontakte bearbeiten
+  permission_delete_contacts: Kontakte löschen
+  permission_view_deals: Verkaufschance anzeigen
+  permission_edit_deals: Verkaufschance bearbeiten
+  permission_delete_deals: Verkaufschance löschen
+  permission_add_notes: Anmerkungen hinzufügen
+  permission_delete_notes: Anmerkungen löschen
+  permission_delete_own_notes: Eigene Anmerkungen löschen
+
+  # 2.0.0
+  label_deal_category: Vertriebskategorie
+  label_deal_category_plural: Vertriebskategorien
+  label_deal_category_new: Neue Vertriebskategorie
+  text_deal_category_destroy_assignments: Kategoriezuweisungen entfernen
+  text_deal_category_destroy_question: "Einige Verkaufschancen (%{count}) sind dieser Kategorie zugeordnet. Was wollen Sie tun?"
+  text_deal_category_reassign_to: Neuzuweisung der Verkaufschancen zu dieser Kategorie
+  text_deals_destroy_confirmation: 'Sind Sie sicher, dass Sie die ausgewählten Verkaufschancen löschen wollen?'
+  label_deal_status_plural: Status
+  label_deal_status: Status
+  field_deal_status_is_closed: Geschlossen
+  label_deal_status_new: Neu
+  permission_manage_contacts: Aufzählungen
+  label_sales_funnel: Verkaufskanal
+  label_period: Dauer
+  label_count: Anzahl
+
+  #2.0.1
+  label_user_format: Format Kontaktname
+  label_my_contact_plural: Mir zugeordnete Kontakte
+  label_my_deal_plural: Mir zugeordnete offene Verkaufschancen
+  label_contact_view_all: Alle Kontakte anzeigen
+  label_deal_view_all: Alle Verkaufschancen anzeigen
+
+  #2.0.2
+  label_bulk_edit_selected_contacts: Alle ausgewählten Kontakte bearbeiten
+  label_bulk_edit_selected_deals: Alle ausgewählten Verkaufschancen bearbeiten
+  label_bulk_send_mail_selected_contacts: Sende E-Mail zu ausgewählten Kontakten
+  field_add_tags: Tags hinzufügen
+  field_delete_tags: Tags löschen
+  label_send_mail: Sende E-Mail
+  error_empty_email: E-Mail darf nicht leer sein
+  permission_send_contacts_mail: Sende E-Mail
+  field_mail_from: Absender
+  text_email_macros: Verfügbare Makros %{macro}
+  field_message: Nachricht
+
+  #2.0.3
+  label_add_contact: Neuen Kontakt Projekt hinzufügen
+  label_contact: Kontakt
+  label_import: Import
+  field_age: Alter
+  label_vcf_import: Import von vCard
+  label_mail_from: Von
+  permission_import_contacts: Kontakte importieren
+
+  #2.1.0
+  field_company_name: Unternehmen
+  label_recently_added_contacts: Neuste Kontakte
+  label_created_by_me: Kontakte hinzugefügt von mir
+  my_contacts: Meine Kontakte
+  my_deals: Meine Verkaufschancen
+
+  #2.2.0
+  label_note_type_email: E-Mail
+  label_note_type_call: Anruf
+  label_note_type_meeting: Besprechung
+  field_deal_currency: Währung
+  label_my_contacts_stats: Contacts statistics for this month
+  label_contacts_created: Hinzugefügte Kontakte
+  label_deals_created: Hinzugefügte Verkaufschancen
+  my_contacts_avatars: Meine Kontaktfotos
+  my_contacts_stats: Statistiken zu Kontakten
+  label_add_into: Hinzufügen in
+  label_delete_from: Löschen von
+  label_show_deaks_tab: Verkaufschancen-Reiter anzeigen
+  label_show_on_projects_show: Kontakte auf Projekt-Übersichtsseite anzeigen
+
+  #2.2.1
+  label_contacts_show_in_list: In Liste anzeigen
+
+  #2.3.0
+  label_module_plural: Module
+  label_contacts_default_currency: Standard Währung für Verfaufschange
+  label_contacts_list_partial_style: Kontaktlisten-Ansicht
+  label_contacts_list_excerpt: Einspalte Liste
+  label_contacts_list_cards: Karten
+  label_contacts_list_list: Tabelle
+  field_contacts: Kontakt
+  field_companies: Unternehmen
+  label_contacts_added_time_by: Hinzugefügt von
+  label_contact_note_authoring_time: Zeige Anmerkung mit Uhrzeit
+  label_contact_issues_filters: Ticketfilter
+  label_contacts_csv_import: Kontakte von CSV importieren
+  label_contacts_upload_encoding: Datei Encoding
+  label_contacts_csv_file: CSV Datei
+  label_contacts_csv_separator: Separator
+  field_middle_name: Zwischenname
+  field_job_title: Berufsbezeichnung
+  field_company: Unternehmen
+  field_address: Adresse
+  field_phone: Telefon
+  field_email: E-Mail
+  field_tags: Tags
+  field_last_note: Letzte Anmerkung
+  field_is_company: Ist Unternehmen
+  field_contact_full_name: Vollständiger Name
+  button_contacts_edit_query: Abfrage bearbeiten
+  button_contacts_delete_query: Abfrage löschen
+  permission_manage_public_contacts_queries: Öffentliche Abfragen verwalten
+  permission_add_deals: Verkaufschancen hinzufügen
+  permission_add_contacts: Kontakte hinzufügen
+  permission_save_contacts_queries: Abfrage speichern
+
+  #2.3.3
+  label_contact_show_in_app_menu: Menüeinträge in der Anwendung anzeigen
+
+  #2.3.4
+  label_contact_show_closed_issues: Geschlossene Tickets anzeigen
+
+  #3.0.0
+  label_contacts_import: Importieren
+  label_contact_note_plural: Kontaktanmerkungen
+  label_deal_note_plural: Deal Anmerkungen
+  label_contact_all_note_plural: Alle Anmerkungen
+  error_unable_delete_deal_status: Deal Status kann nicht gelöscht werden
+  label_contacts_hidden: Verborgene Einstellungen
+  #3.1.0
+  label_crm_contact_added: Kontakt hinzugefügt
+  label_crm_note_added: Kommentar hinzugefügt
+  label_crm_deal_added: Verkaufschance hinzugefügt
+  label_crm_deal_updated: Verkaufschancen aktualisiert
+  text_crm_contact_added: "Kontakt %{name} wurde von %{author} hinzugefügt."
+  text_crm_deal_added: "Verkaufschance %{name} wurde von %{author} hinzugefügt."
+  text_crm_deal_status_changed: "Status der Verkaufschance von %{old} auf %{new} geändert"
+  text_crm_deal_updated: "Verkaufschance %{name} wurde von %{author} geändert."
+  label_contacts_cc: Cc
+  label_contacts_bcc: Bcc
+  label_contact_import: Import von CSV
+  permission_import_deals: Verkaufschancen importieren
+  label_crm_single_quotes: "Einfache Anführungszeichen (')"
+  label_crm_double_quotes: "Doppelte Anführungszeichen (\")"
+  label_crm_quotes_type: Anführungszeichentyp
+  label_contacts_visibility: Sichtbarkeit
+  label_contacts_visibility_project: nach Projektberechtigungen
+  label_contacts_visibility_public: Öffentlich
+  label_contacts_visibility_private: Privat
+  permission_view_private_contacts: Private Kontakte anzeigen
+  text_crm_error_on_line: "Fehler in der Zeile %{line}: %{error}."

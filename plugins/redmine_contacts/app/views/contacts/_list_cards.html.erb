@@ -1,0 +1,19 @@
+<%= form_tag({}) do %>	
+<%= hidden_field_tag 'back_url', url_for(params) %>  
+<%= hidden_field_tag 'project_id', @project.id if @project %> 
+    <div class="splitcontentleft">
+    <% i = 0 %>
+    <% split_on = (@contacts.size / 2.0).ceil - 1 %>
+  	<% @contacts.each do |contact| %> 
+  	  <% @contact = contact %>
+  	  <%= render :partial => 'contact_card', :object => contact %>
+      <% if i == split_on -%>
+        </div><div class="splitcontentright">
+      <% end -%>
+      <% i += 1 -%>
+    <% end -%>
+    </div>
+    <div style="clear:both;"> </div>
+
+<% end %>
+<p class="pagination"><%= pagination_links_full @contacts_pages, @contacts_count %></p>

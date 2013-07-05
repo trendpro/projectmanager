@@ -1,0 +1,236 @@
+# encoding: utf-8
+da:
+  contacts_title: Kontakter
+
+  label_all_people: Alle personer
+  label_all_companies: Alle virksomheder
+  label_all_people_and_companies: Alle kontakter
+  label_recently_viewed: Senest vist
+  label_gravatar_enabled: Brug Gravatar  
+  label_contacts_thumbnails_enabled: Vis miniaturebilleder i noter
+  label_max_contacts_thumbnail_file_size: Maks filstørrelse på miniaturebilleder
+  label_contacts_view_all: Vis alle kontakter
+  label_contact_files: Filer
+  label_task_plural: Opgaver
+  label_contact_background_info: Baggrundsinformation
+  label_person: Person
+  label_company: Virksomhed   
+  label_contact_plural: Kontakter   
+  label_contact_information: Kontaktinformation
+  label_contact_edit_information: Redigerer kontaktinformation
+  label_edit_tags: Rediger tags
+  label_contact_view: Vis
+  label_contact_list: Liste
+  label_contact_new: Ny kontakt
+  label_at_company: hos
+  label_last_notes: Seneste noter
+  label_tags_plural: Tags     
+  label_multi_tags_plural: Vælg flere tags
+  label_single_tag_mode: Enkelt tag
+  label_multiple_tags_mode: Flere tags
+  label_contact_tag: Tag
+  label_time_ago: siden
+  label_add_note_plural: Tilføj note til 
+  label_note_plural: Noter
+  label_company_employees: Medarbejdere
+  label_add_tags_rule: del med komma
+  label_contact_search: Søg efter navn
+  label_note_for: Note for
+  label_show_on_map: Vis på kort   
+  label_add_another_phone: tilføj telefon   
+  label_contact_note_plural: Alle noter
+  label_remove: slet
+  label_related_contacts: Relaterede kontakter    
+  label_assigned_to: Ansvarlig
+  label_issue_added: Sag tilføjet
+  label_add_emails_rule: del med komma
+  label_add_phones_rule: del med komma  
+  label_add_employee: Ny medarbejder
+  label_merge_duplicate_plural: Sammenflet
+  label_duplicate_plural: Mulige kopier
+  label_duplicate_for_plural: Mulige kopier for
+  label_add_tag: Tilføj ny...
+   
+  label_note_show_extras: Avanceret (type, dato, filer)
+  label_note_hide_extras: Skjul avanceret       
+  label_note_added: Noten er blevet tilføjet  
+  label_note_read_more: (læs mere)
+
+  label_deal_plural: Tilbud
+  label_contractor_plural: Kontakter
+  label_deal: Tilbud
+  label_deal_new: Nyt tilbud
+  label_deal_edit_information: Rediger tilbudsinformation   
+  label_deal_change_status: Ændre status
+  label_statistics: Statistik
+  
+  label_deal_status_new: Ny
+  label_deal_status_first_contact: Første kontakt
+  label_deal_status_negotiations: Forhandlinger
+  label_deal_status_pending: Afventer
+  label_deal_status_won: Vundet
+  label_deal_status_lost: Tabt   
+  
+  label_created_on: Oprettet d.
+
+  field_note_date: Note dato
+  
+  field_deal_name: Navn
+  field_deal_background: Baggrund
+  field_deal_contact: Kontakt
+  field_deal_price: Sum  
+  field_price: Sum  
+  
+  field_contact_avatar: Billede
+  field_contact_is_company: Virksomhed
+  field_contact_name: Navn
+  field_contact_last_name: Efternavn
+  field_contact_first_name: Fornavn
+  field_contact_middle_name: Mellemnavn
+  field_contact_job_title: Stilling
+  field_contact_company: Virksomhed
+  field_contact_address: Addresse
+  field_contact_phone: Telefon
+  field_contact_email: Email
+  field_contact_website: Hjemmeside
+  field_contact_skype: Skype
+  field_contact_status: Status   
+  field_contact_background: Baggrund   
+  field_contact_tag_names: Tags   
+  field_first_name: Fornavn
+  field_last_name: Efternavn
+  field_company: Virksomhed
+  field_birthday: Fødselsdag     
+  field_contact_department: Afdeling 
+  
+  
+  field_company_field: Branche
+  
+  field_color: Farve
+  
+  button_add_note: Tilføj note  
+  notice_successful_save: Gemt 
+  notice_successful_add: Oprettet
+  notice_unsuccessful_save: Problemer med at gemme
+  notice_successful_merged: Sammenflettet uden problemer     
+  
+  notice_merged_warning: Alle noter, projekter, tags og opgaver knyttet til denne person vil blive flyttet til nedenstående valg. Herefter vil kontakten blive slettet.
+  
+  project_module_contacts_module: Kontakter
+  
+  permission_view_contacts: Vis kontakter
+  permission_edit_contacts: Ret kontakter
+  permission_delete_contacts: Slet kontakter
+  permission_view_deals: Vis tilbud
+  permission_edit_deals: Ret tilbud
+  permission_delete_deals: Slet tilbud   
+  permission_add_notes: Tilføj noter  
+  permission_delete_notes: Slet noter      
+  permission_delete_own_notes: Slet egne noter      
+  
+  # 2.0.0   
+  label_deal_category: Tilbudskategori   
+  label_deal_category_plural: Tilbudskategorier   
+  label_deal_category_new: Ny kategori
+  text_deal_category_destroy_assignments: Slet tildelte kategorier
+  text_deal_category_destroy_question: "Et antalt tilbud (%{count}) er tildelt denne kategori. Vil vil du gøre?"
+  text_deal_category_reassign_to: Tildel disse tilbud til denne kategori 
+  text_deals_destroy_confirmation: 'Er du sikker på du vil slette de(t) valgte tilbud?'  
+  label_deal_status_plural: Tilbudsstatus 
+  label_deal_status: Tilbudsstatus
+  field_deal_status_is_closed: Lukket 
+  label_deal_status_new: Ny
+  permission_manage_contacts: Tællinger    
+  label_sales_funnel: Salgstragt
+  label_period: Periode
+  label_count: Antal
+  
+  #2.0.1
+  label_user_format: Kontaktformat 
+  label_my_contact_plural: Kontakter tildelt til mig
+  label_my_deal_plural: Åbne tilbud tildelt til mig
+  label_contact_view_all: Vis alle kontakter
+  label_deal_view_all: Vis alle tilbud
+  
+  #2.0.2
+  label_bulk_edit_selected_contacts: Ret alle valgte kontakter
+  label_bulk_edit_selected_deals: Ret alle valgte tilbud
+  label_bulk_send_mail_selected_contacts: Send email til valgte kontakter
+  field_add_tags: Tilføj tags
+  field_delete_tags: Slet tags
+  label_send_mail: Send email   
+  error_empty_email: Email kan ikke være blank
+  permission_send_contacts_mail: Send mail
+  field_mail_from: Fra adresse
+  text_email_macros: Tilgængelige makroer %{macro}
+  field_message: Besked
+
+  #2.0.3
+  label_add_contact: Tilføj ny kontakt i projekt
+  label_contact: Kontakt
+  field_age: Alder
+  label_vcf_import: Importer fra vCard
+  label_mail_from: Fra
+  permission_import_contacts: Importer kontakter   
+  
+  #2.1.0
+  field_company_name: Virksomhedsnavn
+  label_recently_added_contacts: Seneste tilføjede kontakter
+  label_created_by_me: Kontakter oprettet af mig
+  my_contacts: Mine kontakter
+  my_deals: Mine tilbud
+
+  #2.2.0
+  label_note_type_email: Email
+  label_note_type_call: Opkald
+  label_note_type_meeting: Møde
+  field_deal_currency: Valuta
+  label_my_contacts_stats: Kontaktens statistik for denne måned
+  label_contacts_created: Kontakter oprettet
+  label_deals_created: Tilbud oprettet
+  my_contacts_avatars: Mine kontakters fotos
+  my_contacts_stats: Mine kontakter statistikker
+  label_add_into: Tilføj til 
+  label_delete_from: Slet fra
+  label_show_deaks_tab: Vis tilbudsfane
+  label_show_on_projects_show: Vis kontakter på projektoversigt
+  
+  #2.2.1
+  label_contacts_show_in_list: Vis i liste
+  
+  #2.3.0
+  label_module_plural: Moduler
+  label_contacts_default_currency: Standardvaluta for tilbud
+  label_contacts_list_partial_style: Kontaktliste udseende
+  label_contacts_list_excerpt: Uddragsliste
+  label_contacts_list_cards: Kort
+  label_contacts_list_list: Tabel
+  field_contacts: Kontakt
+  field_companies: Virksomhed
+  label_contacts_added_time_by: Tilføjet af 
+  label_contact_note_authoring_time: Vis notetidspunkt
+  label_contact_issues_filters: Sager filtreret
+  label_contacts_csv_import: Importer kontakter fra CSV
+  label_contacts_upload_encoding: Filkodning
+  label_contacts_csv_file: CSV fil
+  label_contacts_csv_separator: Adskiller
+  field_middle_name: Mellemnavn
+  field_job_title: Stilling
+  field_company: Virksomhed
+  field_address: Adresse
+  field_phone: Telefon
+  field_email: Email
+  field_tags: Tags  
+  field_last_note: Seneste note
+  field_is_company: Er virksomhed
+  field_contact_full_name: Fulde navn
+  button_contacts_edit_query: Ret forespørgsel
+  button_contacts_delete_query: Slet forespørgsel
+  permission_manage_public_contacts_queries: Administrer offentlige forespørgsler
+  permission_add_deals: Tilføj tilbud
+  permission_add_contacts: Tilføj kontakter
+  permission_save_contacts_queries: Gem forespørgsler
+
+  #2.3.3
+  label_contact_show_is_app_menu: Vis faner i app-menuen
+

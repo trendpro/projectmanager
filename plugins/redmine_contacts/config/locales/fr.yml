@@ -1,0 +1,155 @@
+fr:
+  contacts_title: Contacts
+  
+  label_all_people: Tout le monde
+  label_all_companies: Toutes les sociétés
+  label_all_people_and_companies: Tout le monde & toutes les sociétés
+  label_recently_viewed: Vus dernièrement
+  label_gravatar_enabled: Utiliser Gravatar
+  label_contacts_view_all: Voir tous les contacts
+  label_contact_files: Fichiers
+  label_task_plural: Tâches
+  label_contact_background_info: Informations / contexte
+  label_person: Personne
+  label_company: Société   
+  label_contact_plural: Liste des contacts   
+  label_contact_information: Information sur le contact
+  label_contact_edit_information: Edition des informations du contact
+  label_edit_tags: Editer les tags
+  label_contact_view: Voir
+  label_contact_list: Lister
+  label_contact_new: Nouveau
+  label_at_company: à
+  label_last_notes: Dernières notes
+  label_tags_plural: Tags     
+  label_multi_tags_plural: Selectionner plusieurs tags
+  label_single_tag_mode: Tag unique
+  label_multiple_tags_mode: Multiple tags
+  label_contact_tag: Tag
+  label_time_ago: il y à
+  label_add_note_plural: Ajouter une note à  
+  label_note_plural: Notes
+  label_company_employees: Employés
+  label_add_tags_rule: séparés par des virgule
+  label_contact_search: Rechercher par nom
+  label_note_for: Note pour
+  label_show_on_map: Afficher sur la carte   
+  label_add_another_phone: ajouter numéro de téléphone   
+  label_contact_note_plural: Toutes les notes  
+  label_remove: supprimer        
+  label_related_contacts: Contacts associés   
+  label_assigned_to: Responsable 
+  label_issue_added: Demande ajoutée
+  label_add_emails_rule: séparé par des virgules
+  label_add_phones_rule: séparé par des virgules
+   
+  label_note_show_extras: Avancés (fichiers, date)
+  label_note_hide_extras: Masquer avancés       
+  label_note_added: La note a été ajoutée avec succès
+
+  label_deal_plural: Affaires
+  label_contractor_plural: Contacts
+  label_deal: Affaire     
+  label_deal_new: Nouvelle affaire
+  label_deal_edit_information: Editer affaire  
+  label_deal_change_status: Changer de statut
+  label_statistics: Statistiques
+  
+  field_note_date: Date de la note
+  
+  field_deal_name: Nom
+  field_deal_background: Contexte
+  field_deal_contact: Contact    
+  field_deal_price: Montant  
+  field_price: Montant  
+  
+  field_contact_avatar: Avatar
+  field_contact_is_company: Société
+  field_contact_name: Nom
+  field_contact_last_name: Nom
+  field_contact_first_name: Prénom
+  field_contact_middle_name: Particule (exemple le R. de "James R. Smith")
+  field_contact_job_title: Métier
+  field_contact_company: Société
+  field_contact_address: Adresse
+  field_contact_phone: Téléphone
+  field_contact_email: Email
+  field_contact_website: Site Web
+  field_contact_skype: Skype
+  field_contact_notes: Notes
+  field_contact_status: Statut   
+  field_contact_background: Contexte   
+  field_contact_tag_names: Tags
+  field_first_name: Prénom
+  field_last_name: Nom
+  field_company: Société 
+  field_birthday: Anniversaire 
+  field_contact_department: Département
+
+
+  field_deal_name: Nom
+  field_deal_decription: Description   
+  
+  field_company_field: Secteur d'activité
+  
+  button_add_note: Ajouter cette note
+  notice_successful_save: Sauvegardé avec succès
+  notice_successful_add: Ajouté avec succès
+  notice_unsuccessful_save: Impossible d'ajouter
+  
+  project_module_contacts_module: Contacts
+  
+  permission_view_contacts: Voir les contacts
+  permission_edit_contacts: Editer les contacts
+  permission_delete_contacts: Supprimer les contacts
+  permission_view_deals: Voir les affaires
+  permission_edit_deals: Editer les affaires
+  permission_delete_deals: Supprimer les affaires 
+  permission_add_notes: Ajouter des notes
+  permission_delete_notes: Effacer des notes      
+  permission_delete_own_notes: Effacer ses notes   
+  
+  # 2.0.0   
+  label_deal_category: Catégorie d'affaire
+  label_deal_category_plural: Catégories d'affaire
+  label_deal_category_new: Nouvelle catégorie
+  text_deal_category_destroy_assignments: Supprimer les attributions de catégories
+  text_deal_category_destroy_question: "Des affaires (%{count}) sont attribuées à cette catégorie. Que souhaitez-vous faire ?"
+  text_deal_category_reassign_to: Réattribuer les affaires à cette catégorie 
+  text_deals_destroy_confirmation: 'Êtes-vous sûr(e) de vouloir supprimer cette affaire(s) ?'  
+  label_deal_status_plural: Statut des affaires 
+  label_deal_status: Statut de l'affaire 
+  field_deal_status_is_closed: Fermée 
+  label_deal_status_new: Nouvelle     
+  permission_manage_contacts: Enumérations    
+  label_sales_funnel: Clients potentiels
+  label_period: Point
+  label_count: Comptage 
+  
+  #2.0.1
+  label_user_format: Format de nom du contact
+  label_my_contact_plural: Mes Contacts
+  label_my_deal_plural: Ouvrir Mes affaires
+  label_contact_view_all: Voir tous les contacts  
+  label_deal_view_all: Voir toutes les affaires
+  
+  #2.0.2
+  label_bulk_edit_selected_contacts: Editer tous les contacts sélectionnés
+  label_bulk_edit_selected_deals: Editer toutes les affaires sélectionnées
+  label_bulk_send_mail_selected_contacts: Envoyer un email aux contacts sélectionnés
+  field_add_tags: Ajouter des tags
+  field_delete_tags: Effacer les tags
+  label_send_mail: Envoyer un email   
+  error_empty_email: L'email ne peut être vide
+  permission_send_contacts_mail: Envoyer l'email
+  field_mail_from: De l'adresse
+  text_email_macros: Macros disponibles %{macro}
+  field_message: Message
+
+  #2.0.3
+  label_add_contact: Ajouter un nouveau contact au project
+  label_contact: Contact
+  field_age: Age
+  label_vcf_import: Importer de la vCard
+  label_mail_from: De
+  permission_import_contacts: Importer des contacts

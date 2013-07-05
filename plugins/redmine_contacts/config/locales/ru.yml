@@ -1,0 +1,282 @@
+# encoding: utf-8
+ru:
+  contacts_title: Контакты
+
+  label_all_people: Все люди
+  label_all_companies: Все компании
+  label_all_people_and_companies: Все контакты
+  label_recently_viewed: Последние просмотренные
+  label_gravatar_enabled: Использовать Gravatar для контактов
+  label_contacts_thumbnails_enabled: Отображать миниатюры изображений в заметках
+  label_max_contacts_thumbnail_file_size: Максимальный размер отображаемой миниатюры
+  label_contacts_view_all: Все контакты
+  label_contact_files: Файлы
+  label_task_plural: Задачи
+  label_contact_background_info: Дополнительная информация
+  label_person: Контакт
+  label_company: Компания
+  label_contact_plural: Контакты 
+  label_contact_information: Информация по контакту
+  label_contact_edit_information: Редактировать информацию по контакту
+  label_edit_tags: Редактировать тэги
+  label_contact_view: Просмотр
+  label_contact_list: Список
+  label_contact_new: Новый контакт
+  label_at_company: в
+  label_last_notes: Последние заметки
+  label_tags_plural: Тэги          
+  label_multi_tags_plural: Выбор нескольких тэгов
+  label_single_tag_mode: Один тэг
+  label_multiple_tags_mode: Несколько тэгов 
+  label_contact_tag: Тэг
+  label_time_ago: назад
+  label_add_note_plural: Добавить заметку  
+  label_note_plural: Заметки
+  label_company_employees: Сотрудники
+  label_add_tags_rule: несколько тэгов через зяпятую
+  label_contact_search: Поиск по имени
+  label_note_for: Заметка для 
+  label_show_on_map: Показать на карте
+  label_add_another_phone: добавить телефон  
+  label_remove: удалить        
+  label_related_contacts: Связанные контакты     
+  label_assigned_to: Ответственный 
+  label_issue_added: Добавлена задача   
+  label_add_emails_rule: несколько email через зяпятую
+  label_add_phones_rule: несколько телефонов через зяпятую  
+  label_add_employee: Новый сотрудник  
+  label_merge_duplicate_plural: Объединить
+  label_duplicate_plural: Вероятные дубликаты
+  label_duplicate_for_plural: Вероятные дубликаты для  
+  label_add_tag: + добавить тэг
+  
+  label_note_show_extras: Дополнительно (тип, дата, файлы)
+  label_note_hide_extras: Скрыть параметры       
+  label_note_added: Заметка успешно добавлена
+  label_note_read_more: (вся заметка)
+  label_invoice_import: Загрузить счета из CSV
+  
+  label_deal_plural: Сделки
+  label_contractor_plural: Участники сделки
+  label_deal: Сделка     
+  label_deal_new: Новая сделка
+  label_deal_edit_information: Редактировать информацию по сделке   
+  label_deal_change_status: Сменить статус  
+  label_statistics: Cтатистика  
+  
+  label_deal_status_new: Новая
+  label_deal_status_first_contact: Первый контакт
+  label_deal_status_negotiations: Переговоры
+  label_deal_status_pending: Принятие решения
+  label_deal_status_won: Выиграна
+  label_deal_status_lost: Отвергнута      
+  label_deals_import: Загрузить сделки из CSV
+  
+  label_created_on: Дата создания
+  
+  field_note_date: Дата заметки
+  
+  field_deal_name: Название
+  field_deal_background: Описание
+  field_deal_contact: Участник сделки    
+  field_deal_price: Сумма  
+  field_price: Cумма
+  
+  field_contact_avatar: Фото
+  field_contact_is_company: Компания
+  field_contact_name: Имя
+  field_contact_last_name: Фамилия
+  field_contact_first_name: Имя
+  field_contact_middle_name: Отчество
+  field_contact_job_title: Должность
+  field_contact_company: Компания
+  field_contact_address: Адрес
+  field_contact_phone: Телефон
+  field_contact_email: Email
+  field_contact_website: Website
+  field_contact_skype: Skype
+  field_contact_background: Дополнительная информация
+  field_contact_status: Статус
+  field_contact_tag_names: Тэги   
+  field_first_name: Имя
+  field_last_name: Фамилия
+  field_company: Компания    
+  field_birthday: День рождения
+  field_contact_department: Отдел   
+  
+  field_company_field: Род деятельности
+
+  field_color: Цвет
+  
+  button_add_note: Добавить заметку   
+  notice_successful_save: Сохранение успешно завершено 
+  notice_successful_add: Создание успешнео завершено
+  notice_unsuccessful_save: Невозможно сохранить 
+  notice_successful_merged: Объединение успешно завершено 
+  
+  notice_merged_warning: Все привязанные проекты, заметки, тэги и задачи этого контакта будут перенесены в выбранный в списке внизу, а этот контакт будет удален.
+  
+  project_module_contacts_module: Контакты
+  
+  permission_view_contacts: Просмотр контактов  
+  permission_edit_contacts: Редактирование контактов
+  permission_delete_contacts: Удаление контактов
+  permission_view_deals: Просмотр сделок
+  permission_edit_deals: Редактирование сделок
+  permission_delete_deals: Удаление сделок
+  permission_add_notes: Добавление заметок      
+  permission_delete_notes: Удаление заметок      
+  permission_delete_own_notes: Удаление своих заметок  
+
+  # 2.0.0   
+  label_deal_category: Категория сделки   
+  label_deal_category_plural: Категории сделок   
+  label_deal_category_new: Новая категория
+  text_deal_category_destroy_assignments: Удалить назначения категории
+  text_deal_category_destroy_question: "Несколько сделок (%{count}) назначено в данную категорию. Что Вы хотите предпринять?"
+  text_deal_category_reassign_to: Переназначить сделки для данной категории
+  text_deals_destroy_confirmation: 'Вы уверены, что хотите удалить выбранные сделки?'  
+  label_deal_status_plural: Статусы сделок 
+  label_deal_status: Статус cделки 
+  field_deal_status_is_closed: Закрытa 
+  label_deal_status_new: Новый     
+  permission_manage_contacts: Настройка справочников   
+  label_sales_funnel: Воронка продаж
+  label_period: Период
+  label_count: Кол-во
+
+  #2.0.1
+  label_user_format: Формат имени
+  label_my_contact_plural: Контакты назначенные мне
+  label_my_deal_plural: Открытые сделки назначенные мне
+  label_contact_view_all: Посмотреть все контакты 
+  label_deal_view_all: Посмотреть все сделки
+  
+  #2.0.2
+  label_bulk_edit_selected_contacts: Редактировать все выбранные контакты
+  label_bulk_edit_selected_deals: Редактировать все выбранные сделки
+  label_bulk_send_mail_selected_contacts: Отправить письмо выбранным контактам
+  field_add_tags: Добавить тэги
+  field_delete_tags: Снять тэги
+  label_send_mail: Отправить письмо   
+  error_empty_email: Email не может быть пустым
+  permission_send_contacts_mail: Отправлять письма
+  field_mail_from: Отправитель
+  text_email_macros: Макросы %{macro}  
+  field_message: Сообщение
+  
+  #2.0.3
+  label_add_contact: Создать контакт в проекте
+  label_contact: Контакт
+  field_age: Возраст
+  label_vcf_import: Импорт из vCard
+  label_mail_from: От
+  permission_import_contacts: Импорт контактов
+  
+  #2.1.0
+  field_company_name: Наименование компании
+  label_recently_added_contacts: Недавно созданные контакты
+  label_created_by_me: Контакты созданные мной
+  my_contacts: Мои контакты
+  my_deals: Мои сделки
+  
+  #2.2.0
+  label_note_type_email: Email
+  label_note_type_call: Звонок
+  label_note_type_meeting: Встреча
+  field_deal_currency: Валюта
+  label_my_contacts_stats: Статистика по контактам за этот месяц
+  label_contacts_created: Добавлено контактов
+  label_deals_created: Добавлено сделок
+  my_contacts_avatars: Фотографии моих контактов
+  my_contacts_stats: Статистика по контактам
+  label_add_into: Добавить в
+  label_delete_from: Удалить из
+  label_show_deaks_tab: Позывать закладку Сделки
+  label_show_on_projects_show: Показывать контакты на обзоре проекта
+  
+  #2.2.1
+  label_contacts_show_in_list: Показывать в списке
+  
+  #2.3.0
+  label_module_plural: Модули
+  label_contacts_default_currency: Валюта сделок по умолчанию
+  label_contacts_list_partial_style: Отображать список контактов
+  label_contacts_list_excerpt: Списком
+  label_contacts_list_cards: Карточками
+  label_contacts_list_list: Таблицей
+  field_contacts: Контакт
+  field_companies: Компания
+  label_contacts_added_time_by: Добавил(а)
+  label_contact_note_authoring_time: Показывать время заметок
+  label_contact_issues_filters: Фильтры по задачам
+  label_contacts_csv_import: Импортировать из CSV
+  label_contacts_upload_encoding: Кодировка файла
+  label_contacts_csv_file: CSV файл
+  label_contacts_csv_separator: Разделитель
+  field_middle_name: Отчество
+  field_job_title: Должность
+  field_company: Компания
+  field_address: Адрес
+  field_phone: Телефон
+  field_email: Email
+  field_tags: Тэги  
+  field_is_company: Является компанией
+  field_contact_full_name: Полное имя
+  field_last_note: Последняя заметка
+  button_contacts_edit_query: Редактировать запрос
+  button_contacts_delete_query: Удалить запрос
+  permission_manage_public_contacts_queries: Управление общими запросами
+  permission_add_deals: Добавление сделок
+  permission_add_contacts: Добавление контактов
+  permission_save_contacts_queries: Сохранение запросов
+
+  #2.3.3
+  label_contact_show_in_app_menu: Показывать вкладки в меню приложения
+
+  #2.3.4
+  label_contact_show_closed_issues: Показывать закрытые задачи
+
+  #3.0.0
+  label_contacts_import: Импорт
+  label_contact_note_plural: Заметки контактов  
+  label_deal_note_plural: Заметки сделок
+  label_contact_all_note_plural: Все заметки 
+  error_unable_delete_deal_status: Невозможно удалить статус сделки
+  label_contacts_hidden: Дополнительные параметры
+  
+  #3.1.0
+  label_crm_contact_added: Добавлен контакт
+  label_crm_note_added: Добавлена заметка
+  label_crm_deal_added: Добавлена сделка
+  label_crm_deal_updated: Сделка изменена
+  text_crm_contact_added: "Создан новый контакт %{name} (%{author})."
+  text_crm_deal_added: "Создана новая сделка %{name} (%{author})."
+  text_crm_deal_status_changed: "Статус сделки изменен с %{old} на %{new}"
+  text_crm_deal_updated: "Сделка %{name} была обновлена (%{author})."
+  label_contacts_cc: Cc
+  label_contacts_bcc: Bcc
+  label_contact_import: Импорт из CSV
+  permission_import_deals: Импорт сделок
+  label_crm_single_quotes: "Одиночные кавычки (')"
+  label_crm_double_quotes: "Двойные кавычки (\")"
+  label_crm_quotes_type: Тип кавычек
+  label_contacts_visibility: Видимость
+  label_contacts_visibility_project: По правам в проектах
+  label_contacts_visibility_public: Публичный
+  label_contacts_visibility_private: Частный
+  permission_view_private_contacts: Просмотр частных контактов
+  text_crm_error_on_line: "Ошибка в строке %{line}: %{error}"
+
+  #3.2.0
+  label_crm_probability: Вероятность
+  label_crm_deal_status_type: Тип
+  label_crm_select_companies: Контрагенты только компании
+  label_crm_expected_revenue: Ожидаемый доход 
+
+  #3.2.2
+  label_crm_show_deals_in_top_menu: Показывать сделки в главном меню
+  label_crm_show_details: Показать детали
+  label_crm_has_deals: Есть сделки
+  label_crm_has_open_issues: Есть открытые задачи  
+  label_crm_note: Заметка  
