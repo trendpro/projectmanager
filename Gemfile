@@ -11,6 +11,7 @@ gem 'builder', '3.0.0'
 gem 'method_decorators'
 gem 'pg', '0.15.0'
 gem 'haml'
+gem 'rspec-rails'
 
 # Optional gem for LDAP authentication
 group :ldap do
